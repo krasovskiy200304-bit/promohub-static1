@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>🛒 ПромоХаб — лучшие промокоды каждый день</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🔝 Шапка -->
+  <header class="site-header">
+    <div class="brand">🛒 ПромоХаб</div>
+    <div class="tagline">Лучшие промокоды для супермаркетов, еды, путешествий и магазинов</div>
+    <input type="text" id="search" placeholder="🔍 Поиск по магазину или коду..." />
+  </header>
+
+  <!-- 📑 Вкладки -->
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-category="all">Все</button>
+    <button class="tab" data-category="supermarket">Супермаркеты</button>
+    <button class="tab" data-category="food">Еда и фастфуд</button>
+    <button class="tab" data-category="shops">Магазины</button>
+    <button class="tab" data-category="travel">Путешествия</button>
+  </nav>
+
+  <!-- 🃏 Карточки -->
+  <main class="cards" id="cards"></main>
+
+  <!-- 🔔 Тост уведомлений -->
+  <div id="toast" class="toast">Скопировано!</div>
+
+  <!-- 👣 Подвал -->
+  <footer class="site-footer">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
